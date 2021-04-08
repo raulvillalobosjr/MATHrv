@@ -6,3 +6,6 @@ def add1(num):
 
 def tri_area(base, height):
 	return (base*height)/2
+
+def next_edge(side1, side2):
+	return (side1 + side2)-1
