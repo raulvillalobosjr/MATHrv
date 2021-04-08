@@ -62,3 +62,8 @@ def findLargestNum(nums):
 
 def find_smallest_num(lst):
 	return sorted(lst)[0]
+
+def difference_max_min(lst):
+	sm = sorted(lst)[0]
+	bg = sorted(lst)[-1]
+	return bg-sm
