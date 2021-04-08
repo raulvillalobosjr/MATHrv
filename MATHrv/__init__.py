@@ -1,2 +1,2 @@
-def count(*args):
-    return(len(args))
+def addition(a, b):
+	return a+b
