@@ -84,3 +84,6 @@ def divisible_by_five(n):
 
 def get_sum_of_elements(lst):
 	return sum(lst)
+
+def divisible(num):
+	return num%100==0
