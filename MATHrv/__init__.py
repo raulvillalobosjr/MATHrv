@@ -36,3 +36,8 @@ def to_str(num):
 
 def is_seven(x):
 	return x==7
+
+def swap(a, b):
+	b1 = a
+	a1 = b
+	return [a1, b1]
