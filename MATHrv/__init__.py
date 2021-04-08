@@ -70,3 +70,11 @@ def difference_max_min(lst):
 	sm = sorted(lst)[0]
 	bg = sorted(lst)[-1]
 	return bg-sm
+
+def difference(nums):
+	bg = sorted(nums)[-1]
+	sm = sorted(nums)[0]
+	return bg-sm
+
+def less_than_100(a, b):
+	return (a+b)<100
