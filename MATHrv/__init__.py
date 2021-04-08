@@ -59,3 +59,6 @@ def even_or_odd(lst):
 
 def findLargestNum(nums):
 	return sorted(nums)[-1]
+
+def find_smallest_num(lst):
+	return sorted(lst)[0]
