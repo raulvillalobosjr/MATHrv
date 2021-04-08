@@ -41,3 +41,12 @@ def swap(a, b):
 	b1 = a
 	a1 = b
 	return [a1, b1]
+
+def is_same_num(num1, num2):
+	return num1 == num2
+
+def less_than_or_equal_to_zero(num):
+	return num<=0
+
+def mod(m, n):
+	return m%n
