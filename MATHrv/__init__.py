@@ -18,3 +18,6 @@ def string_int(txt):
 
 def find_perimeter(length, width):
 	return (length+width)*2
+
+def sum_polygon(n):
+	return (n-2)*180
