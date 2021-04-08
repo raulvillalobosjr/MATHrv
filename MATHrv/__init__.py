@@ -24,3 +24,6 @@ def sum_polygon(n):
 
 def calculate_exponent(num, exp):
 	return num**exp
+
+def squared(b):
+	return b*b
