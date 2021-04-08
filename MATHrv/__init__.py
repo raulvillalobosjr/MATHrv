@@ -81,3 +81,6 @@ def less_than_100(a, b):
 
 def divisible_by_five(n):
 	return n%5==0
+
+def get_sum_of_elements(lst):
+	return sum(lst)
