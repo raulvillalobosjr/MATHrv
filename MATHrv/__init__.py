@@ -15,3 +15,6 @@ def remainder(x, y):
 
 def string_int(txt):
 	return int(txt)
+
+def calc_age(age):
+	return age*365
