@@ -12,3 +12,6 @@ def next_edge(side1, side2):
 
 def remainder(x, y):
 	return x%y
+
+def string_int(txt):
+	return int(txt)
