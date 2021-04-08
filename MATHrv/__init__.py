@@ -21,3 +21,6 @@ def find_perimeter(length, width):
 
 def sum_polygon(n):
 	return (n-2)*180
+
+def calculate_exponent(num, exp):
+	return num**exp
