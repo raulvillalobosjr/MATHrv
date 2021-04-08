@@ -9,3 +9,6 @@ def tri_area(base, height):
 
 def next_edge(side1, side2):
 	return (side1 + side2)-1
+
+def remainder(x, y):
+	return x%y
