@@ -50,3 +50,9 @@ def less_than_or_equal_to_zero(num):
 
 def mod(m, n):
 	return m%n
+
+def even_or_odd(lst):
+	if sum(lst)%2==0:
+		return "even"
+	else:
+		return "odd"
