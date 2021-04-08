@@ -33,3 +33,6 @@ def to_int(txt):
 
 def to_str(num):
 	return str(num)
+
+def is_seven(x):
+	return x==7
