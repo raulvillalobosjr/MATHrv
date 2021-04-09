@@ -87,3 +87,6 @@ def get_sum_of_elements(lst):
 
 def divisible(num):
 	return num%100==0
+
+def k_to_k(n, k):
+	return k**k==n
