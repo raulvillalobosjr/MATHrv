@@ -96,3 +96,6 @@ def max_num(n1, n2):
 		return n1
 	else:
 		return n2
+
+def divides_evenly(a, b):
+	return a%b==0
