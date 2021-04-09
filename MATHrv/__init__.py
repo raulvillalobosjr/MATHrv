@@ -90,3 +90,9 @@ def divisible(num):
 
 def k_to_k(n, k):
 	return k**k==n
+
+def max_num(n1, n2):
+	if n1 > n2:
+		return n1
+	else:
+		return n2
