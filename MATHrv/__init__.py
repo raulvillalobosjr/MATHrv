@@ -108,3 +108,6 @@ def makes10(a, b):
 
 def sum_lst(lst):
 	return sum(lst)
+
+def nth_even(n):
+	return (n*2)-2
