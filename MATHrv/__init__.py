@@ -105,3 +105,6 @@ def makes10(a, b):
 		return True
 	else:
 		return False
+
+def sum_lst(lst):
+	return sum(lst)
