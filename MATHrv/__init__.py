@@ -117,3 +117,6 @@ def return_negative(n):
 		return n
 	else:
 		return n-(n*2)
+
+def list_less_than_100(lst):
+	return sum(lst)<100
