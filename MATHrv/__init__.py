@@ -111,3 +111,9 @@ def sum_lst(lst):
 
 def nth_even(n):
 	return (n*2)-2
+
+def return_negative(n):
+	if n <= 0:
+		return n
+	else:
+		return n-(n*2)
