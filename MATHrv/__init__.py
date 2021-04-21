@@ -1,3 +1,5 @@
+import math
+
 def addition(a, b):
 	return a+b
 
@@ -123,3 +125,6 @@ def list_less_than_100(lst):
 
 def make_pair(num1, num2):
 	return [num1, num2]
+
+def years_in_one_house(age, moves):
+	return math.floor((age/(moves+1))+0.5)
