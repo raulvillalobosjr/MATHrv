@@ -120,3 +120,6 @@ def return_negative(n):
 
 def list_less_than_100(lst):
 	return sum(lst)<100
+
+def make_pair(num1, num2):
+	return [num1, num2]
