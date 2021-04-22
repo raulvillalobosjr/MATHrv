@@ -128,3 +128,13 @@ def make_pair(num1, num2):
 
 def years_in_one_house(age, moves):
 	return math.floor((age/(moves+1))+0.5)
+
+def clean_up_list(lst):
+	lst1 = []
+	lst2 = []
+	for i in lst:
+		if int(i)%2==0:
+			lst1.append(int(i))
+		else:
+			lst2.append(int(i))
+	return [lst1, lst2]
