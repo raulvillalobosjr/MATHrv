@@ -156,3 +156,9 @@ def sum_cubes(n):
 	    num += 1
 	    lst.append(num**3)
 	return sum(lst)
+
+def invert_list(lst):
+	lsty=[]
+	for i in lst:
+		lsty.append(-i)
+	return lsty
