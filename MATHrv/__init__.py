@@ -162,3 +162,11 @@ def invert_list(lst):
 	for i in lst:
 		lsty.append(-i)
 	return lsty
+
+def range_of_num(start, end):
+	lst=[]
+	num=start
+	for i in range(0,(end-start)):
+		num+=1
+		lst.append(num)
+	return lst[:-1]
