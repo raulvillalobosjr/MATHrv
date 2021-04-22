@@ -141,3 +141,5 @@ def clean_up_list(lst):
 
 def check_equals(lst1, lst2):
 	return lst1 == lst2
+
+is_even = lambda n : n % 2 == 0
