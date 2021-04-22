@@ -148,3 +148,11 @@ calculator = lambda txt: eval(txt)
 
 def is_odd(num):
   return num%2 != 0
+
+def sum_cubes(n):
+	lst = []
+	num = 0
+	for i in range(0,n):
+	    num += 1
+	    lst.append(num**3)
+	return sum(lst)
