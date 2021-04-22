@@ -138,3 +138,6 @@ def clean_up_list(lst):
 		else:
 			lst2.append(int(i))
 	return [lst1, lst2]
+
+def check_equals(lst1, lst2):
+	return lst1 == lst2
