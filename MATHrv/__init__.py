@@ -178,3 +178,9 @@ def print_list(n):
 		i+=1
 		result.append(i)
 	return result
+
+def isEvenOrOdd(num):
+	if num%2==0:
+		return "even"
+	else:
+		return "odd"
