@@ -170,3 +170,11 @@ def range_of_num(start, end):
 		num+=1
 		lst.append(num)
 	return lst[:-1]
+
+def print_list(n):
+	result=[]
+	i=0
+	while i<n:
+		i+=1
+		result.append(i)
+	return result
