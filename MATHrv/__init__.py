@@ -184,3 +184,6 @@ def isEvenOrOdd(num):
 		return "even"
 	else:
 		return "odd"
+
+def equation(s):
+	return eval(s)
