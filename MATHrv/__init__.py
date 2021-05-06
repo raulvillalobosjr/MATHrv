@@ -194,3 +194,11 @@ def sum_five(lst):
 		if i>5:
 			listy.append(i)
 	return sum(listy)
+
+def basic_calculator(a, o, b):
+	if (o=='/' or o=='*') and b==0:
+		return None
+	elif o not in '/-*+':
+		return None
+	else:
+		return eval(str(a)+o+str(b))
