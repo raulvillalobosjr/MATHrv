@@ -211,3 +211,10 @@ def area_shape(base, height, shape):
 		return base * height * 0.5
 	elif shape == "parallelogram":
 		return base * height 
+
+def half_quarter_eighth(n):
+	lst = []
+	lst.append(n*0.5)
+	lst.append(n*0.25)
+	lst.append(n*0.125)
+	return lst
