@@ -205,3 +205,9 @@ def basic_calculator(a, o, b):
 
 def eq(evaluate):
 	return eval(evaluate)
+
+def area_shape(base, height, shape):
+	if shape == "triangle":
+		return base * height * 0.5
+	elif shape == "parallelogram":
+		return base * height 
