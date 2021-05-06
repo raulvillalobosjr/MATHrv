@@ -202,3 +202,6 @@ def basic_calculator(a, o, b):
 		return None
 	else:
 		return eval(str(a)+o+str(b))
+
+def eq(evaluate):
+	return eval(evaluate)
