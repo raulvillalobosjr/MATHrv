@@ -187,3 +187,10 @@ def isEvenOrOdd(num):
 
 def equation(s):
 	return eval(s)
+
+def sum_five(lst):
+	listy=[]
+	for i in lst:
+		if i>5:
+			listy.append(i)
+	return sum(listy)
