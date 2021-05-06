@@ -218,3 +218,6 @@ def half_quarter_eighth(n):
 	lst.append(n*0.25)
 	lst.append(n*0.125)
 	return lst
+
+def min_max(nums):
+	return [min(nums), max(nums)]
