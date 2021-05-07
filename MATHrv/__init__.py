@@ -221,3 +221,6 @@ def half_quarter_eighth(n):
 
 def min_max(nums):
 	return [min(nums), max(nums)]
+
+def greater_than_one(frac):
+	return eval(frac)>1
