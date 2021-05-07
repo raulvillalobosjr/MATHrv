@@ -224,3 +224,10 @@ def min_max(nums):
 
 def greater_than_one(frac):
 	return eval(frac)>1
+
+def invert_list(lst):
+    lsty=[]
+    if len(lst)>0:
+        for i in lst:
+            lsty.append(-i)
+    return lsty
