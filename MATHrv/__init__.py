@@ -234,3 +234,14 @@ def invert_list(lst):
 
 def operate(num1, num2, operator):
 	return eval(str(num1)+operator+str(num2))
+
+def shuffle(nums, n):
+    lst1=nums[:n]
+    lst2=nums[n:]
+    lst=[]
+    y=0
+    for i in lst1:
+        lst.append(lst1[y])
+        lst.append(lst2[y])
+        y=y+1
+    return lst
