@@ -245,3 +245,16 @@ def shuffle(nums, n):
         lst.append(lst2[y])
         y=y+1
     return lst
+
+def numIdenticalPairs(nums):
+    lst=[]
+    sm=[]
+    listy=[]
+    for i in nums:
+        if i not in sm:
+            sm.append(i)
+    for j in sm:
+        listy.append(nums.count(j))
+    for k in listy:
+        lst.append(k*(k-1)//2)
+    return sum(lst)
