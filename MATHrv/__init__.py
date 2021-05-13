@@ -33,6 +33,8 @@ def squared(b):
 def to_int(txt):
 	return int(txt)
 
+def cube_squareroot(num):
+	return math.sqrt(num**3)
 def to_str(num):
 	return str(num)
 
