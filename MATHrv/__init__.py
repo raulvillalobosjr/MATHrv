@@ -264,3 +264,14 @@ def absolute(n):
 	    return -n
 	else:
 	    return n
+
+def find_factors(n):
+    lst=[]
+    for i in range(0,n+1):
+        for j in range(0,n+1):
+            if i*j == n:
+                lst.append(i)
+    if n==0:
+        return []
+    else:
+        return lst
