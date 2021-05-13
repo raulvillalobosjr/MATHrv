@@ -258,3 +258,9 @@ def numIdenticalPairs(nums):
     for k in listy:
         lst.append(k*(k-1)//2)
     return sum(lst)
+
+def absolute(n):
+	if n<0:
+	    return -n
+	else:
+	    return n
