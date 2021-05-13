@@ -35,6 +35,7 @@ def to_int(txt):
 
 def cube_squareroot(num):
 	return math.sqrt(num**3)
+
 def to_str(num):
 	return str(num)
 
