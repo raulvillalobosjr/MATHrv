@@ -275,3 +275,9 @@ def find_factors(n):
         return []
     else:
         return lst
+
+def parity(n):
+	if n % 2 == 0:
+		return "even"
+	else:
+		return "odd"
